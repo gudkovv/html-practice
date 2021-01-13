@@ -12,19 +12,19 @@
 </head>
 
 <body>
-
+    
     <header id="home">
         <nav>
             <div class="logo">
                 <a class="happypaws1" href="index.html"><img class="happypaws1" src="img/logo.png" alt="logo"></a>
             </div>
             <div class="menu">
-                <a href="#about">About</a>
-                <a href="rooms.html">Rooms</a>
-                <a href="rooms.html#additional-services">Additional services</a>
-                <a href="#testimonials">Testimonials</a>
-                <a href="#contacts">Contacts</a>
-                <a href="#contacts">BOOK NOW</a>
+                <a id="aboutbt" href="#about">About</a>
+                <a id="rooms" href="rooms.html">Rooms</a>
+                <a id="addserv" href="rooms.html#additional-services">Additional services</a>
+                <a id="testimonialsbt" href="#testimonials">Testimonials</a>
+                <a id="contactsbt" href="#contacts">Contacts</a>
+                <a id="booknow" href="#contacts">BOOK NOW</a>
             </div>
         </nav>
         <div class="taglinelogo">
@@ -37,88 +37,110 @@
             <img class="logodog" src="img/dog.png" alt="Dog">
         </div>
     </header>
+
     <main>
         <div class="introduction">
-            <h2 class="introheading">We're Here to Look After Your Pet</h2>
-            <p class="introparag">Still have some hesitations whether cooperation with us is worth the trouble? <br>
-                Check the reasons why you should choose us among other companies!</p>
             <div>
+                <h2 class="introheading">We're Here to Look After Your Pet</h2>
+            </div>
+            <div>
+                <p class="introparag">Still have some hesitations whether cooperation with us is worth the trouble? <br>
+                    Check the reasons why you should choose us among other companies!</p>
+            </div>
+            <div class="articles">
                 <article class="art1">
+                    <img id="iconfood" src="src/royalcanin.svg" alt="icon">
                     <h3 class="artt1">Royal Canin</h3>
                     <p>We give your pets only the best food, in accordance with your recommendations and diet
                         restrictions,
                         individual intolerance, allergic reactions, etc.</p>
                 </article>
                 <article class="art2">
+                    <img id="iconwater" src="src/water.svg" alt="icon">
                     <h3 class="artt2">Purified Water</h3>
                     <p>We serve pets complimentary high-quality drinking water which has been filtered through 4 stages
                         ensuring no contamination and odor.</p>
                 </article>
                 <article class="art3">
+                    <img id="iconcar" src="src/car.svg" alt="icon">
                     <h3 class="artt3">Drop Off & Pick Up</h3>
                     <p>We can pick up your pet and bring it back at the end of stay anywhere in Los Angeles. We
                         transport
                         dogs and cats in comfortable mini-vans.</p>
                 </article>
                 <article class="art4">
+                    <img id="iconball" src="src/ball.svg" alt="icon">
                     <h3 class="artt4">Lots of Activities</h3>
                     <p>Your pet spends time in games with other animals and experienced trainers and pet sitters. We say
                         no
                         to boring days in cramped cages!</p>
                 </article>
             </div>
-        </div>
 
+        </div>
+    
+    <div>
         <div class="roomsgallery">
             <h2 class="roomsgallery">Rooms & Suites</h2>
+        </div>
+        <div>
             <p>Your dogs and cats live in personal rooms equipped with everything they may need. Air-conditioned rooms
                 have soft couches and cat scratching posts. Round-the-clock video surveillance included.</p>
-            <div>
-                <article>
-                    <img class="whitedog" src="img/sroom1dog.jpg" alt="standard room for 1 dog">
-                    <h3>Standard Room for 1 Dog</h3>
-                </article>
+        </div>
+        <div>
+            <article>
+                <img class="whitedog" src="img/sroom1dog.jpg" alt="standard room for 1 dog">
+                <h3>Standard Room for 1 Dog</h3>
+            </article>
 
-                <article>
-                    <img class="whitecat" src="img/s2-4cats.png" alt="executive suite for 2-4 cats">
-                    <h3>Executive Suite for 2-4 Cats</h3>
-                </article>
+            <article>
+                <img class="whitecat" src="img/s2-4cats.png" alt="executive suite for 2-4 cats">
+                <h3>Executive Suite for 2-4 Cats</h3>
+            </article>
 
-                <article>
-                    <img class="cutycat" src="img/scatroom.png" alt="standard cat room">
-                    <h3>Standard Cat Room</h3>
-                </article>
+            <article>
+                <img class="cutycat" src="img/scatroom.png" alt="standard cat room">
+                <h3>Standard Cat Room</h3>
+            </article>
 
-                <article>
-                    <img class="gingercat" src="img/pres-room.jpg" alt="residential room">
-                    <h3>Presidential Room (for 4 Pets)</h3>
-                </article>
+            <article>
+                <img class="gingercat" src="img/pres-room.jpg" alt="residential room">
+                <h3>Presidential Room (for 4 Pets)</h3>
+            </article>
+        </div>
+
+        <a href="rooms.html">SEE MORE</a>
+    </div>
+    -->
+
+    <div class="booking">
+        <div><img src="img/hotel.png" alt="Need a place?"></div>
+        <div class="booking-main">
+            <div class="booking-tagline">
+                <h2 class="booking">Need a Place for Your Pet to Stay?</h2>
+                <p>We have great options for dogs and cats. Leave your phone number to get an individual offer according
+                    to
+                    you pet's needs!</p>
             </div>
-            <!--(карусель картинок)-->
-            <a href="rooms.html">SEE MORE</a>
+            <div>
+                <form>
+                    <input type="text" name="name" placeholder="Name">
+                    <br>
+                    <input type="tel" name="number" placeholder="Phone number">
+                    <br>
+                    <input type="submit" value="SEND">
+                </form>
+            </div>
         </div>
-
-        <div class="booking">
-            <img src="img/hotel.png" alt="Need a place?">
-            <h2 class="booking">Need a Place for Your Pet to Stay?</h2>
-            <p>We have great options for dogs and cats. Leave your phone number to get an individual offer according to
-                you pet's needs!</p>
-            <form>
-                <input type="text" name="name" placeholder="Name">
-                <br>
-                <input type="tel" name="number" placeholder="Phone number">
-                <br>
-                <input type="submit" value="SEND">
-            </form>
-        </div>
+    </div>
+    
         <div class="about">
-            <!--пролистывание картинок-->
             <div>
                 <img src="img/about1.jpg" alt="About us">
                 <img src="img/about2.jpg" alt="About us">
                 <img src="img/about3.jpg" alt="About us">
                 <img src="img/about4.jpg" alt="About us">
-            </div>
+            </div> 
             <h2 class="about">About Us</h2>
             <p>With great love for animals, we opened our hotel for pets 3 years ago. We are located on the outskirts of
                 Los Angeles and have a continuous territory with 24/7 surveillance so that your pet can run, play with
@@ -166,7 +188,7 @@
                 other animals, participate in the training conducted by our professional trainers.</p>
             <p>We offer rooms of different sizes for cats and dogs of any age. Regardless of the room category, each has
                 everything your pet needs for a comfortable rest.</p>
-            <!--карусель картинок-->
+            
             <div>
                 <img src="img/partner1.png" alt="Partner">
                 <img src="img/partner2.png" alt="Partner">
@@ -190,7 +212,7 @@
 
         <div class="gallery">
             <h2 id="gallery">Gallery</h2>
-            <!--карусель картинок-->
+         
             <article>
                 <img src="img/gallery1.jpg" alt="Gallery">
                 <h3 class="gallery">Standard Room for 1 Dog</h3>
@@ -220,7 +242,7 @@
                 <img src="img/gallery6.png" alt="Gallery">
                 <h3 class="gallery">Standard Room for 1 Cat</h3>
             </article>
-            <!--карусель картинок-->
+            
         </div>
 
         <div class="contacts">
@@ -268,7 +290,7 @@
                 <div class="menu2">
                     <a href="#about">About</a>
                     <a href="rooms.html">Rooms</a>
-                    <a href="rooms.html#additional-services">Additional services</a>
+                    <a id="addserv" href="rooms.html#additional-services">Additional services</a>
                     <a href="#testimonials">Testimonials</a>
                     <a href="#gallery">Gallery</a>
                     <a href="#contacts">Contacts</a>
@@ -279,6 +301,7 @@
                 <p>All rights Reserved</p>
             </div>
         </div>
+        -->
     </footer>
 </body>
 

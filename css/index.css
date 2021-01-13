@@ -1,4 +1,6 @@
-
+:root{
+scroll-behavior: smooth;
+}
 body{
 margin: 0px; 
 font-family: 'Yantramanav';
@@ -11,7 +13,7 @@ background-position-x: -170px;
 }
 h2.tagline{
 position: absolute;
-left: 370px;
+left: 340px;
 text-align: center;
 color: white;
 font-size: 100px;
@@ -24,6 +26,7 @@ left: 370px;
 top: 540px;
 text-align: center;
 font-size: 19px;
+font-weight: bold;
 }
 .whitedog{
 width: 33%;
@@ -47,6 +50,8 @@ position: absolute;
 left: 950px;
 top: 50px;
 word-spacing: 20px;
+color: white;
+
 }
 .tagline{
 padding-top: 70px;
@@ -60,87 +65,28 @@ width: 590px
 }
 .ourroomsbt{
 position: absolute;
-left: 590px;
+left: 565px;
 top: 720px;
+word-spacing: 3px;
+display: block;
+width: 85px;
+height: 20px;
+display: flex;
+justify-content: center;
+text-decoration: none;
+padding: 23px 30px;
+padding-bottom: 15px;
+padding-top: 16px;
+color: white;
+background-color: #f8be52;
+font-family: 'Titan One', cursive;
+font-size: 13px;
+border-radius: 5px;
+box-shadow: 1px 1px black;
 }
-.introduction{
-background: url(../img/bg-werehere.png);
-background-position: center;
-margin-top: 60px;
-margin-bottom: 600px;
 
-}
-.art1{
-max-width: 220px;
-position: absolute;
-left: 370px;
-top: 1235px;
-background:#f8be52;
-border-radius: 7px;
-color: white;
-padding: 90px 21px;
-}
-.art2{
-max-width: 220px;
-position: absolute;
-left: 665px;
-top: 1235px;
-background:rgb(124, 188, 68);
-border-radius: 7px;
-color: white;
-padding: 90px 21px;
-}
-.art3{
-max-width: 220px;
-position: absolute;
-left: 958px;
-top: 1235px;
-background:#82c5dc;
-border-radius: 7px;
-color: white;
-padding: 90px 21px;
-}
-.art4{
-max-width: 220px;
-position: absolute;
-left: 1250px;
-top: 1235px;
-background:rgb(243, 93, 34);
-border-radius: 7px;
-color: white;
-padding: 90px 21px;
-}
-.introheading{
-position: absolute;
-left: 510px;
-top: 1025px;
-font-size: 50px;
-font-family: 'Titan One';
-color: #39383b
-}
-.introparag{
-position: absolute;
-left: 640px;
-top: 1125px;
-font-size: 20px;
-text-align: center;
-}
-h3.artt1{
-font-family: 'Titan One', cursive;
-font-size: 22px;
-}
-h3.artt2{
-font-family: 'Titan One', cursive;
-font-size: 22px;
-}
-h3.artt3{
-font-family: 'Titan One', cursive;
-font-size: 22px;
-}
-h3.artt4{
-font-family: 'Titan One', cursive;
-font-size: 22px;
-}
+
+
 /*
 .roomsgallery{
 background: url(../img/bg1-rooms.png), url(../img/bg3-rooms.png), url(../img/bg2-rooms.png);
@@ -180,7 +126,7 @@ font-size: 50px;
 color: #39383b
 }
 h2#testimonials{
-   font-family: 'Titan One', cursive;
+font-family: 'Titan One', cursive;
 font-size: 50px;
 color: #39383b 
 }
@@ -220,4 +166,183 @@ height: auto;}
 div.footbg{
 background-color: #39383b;
 padding: 70px;
+}
+div.menu a#addserv{
+word-spacing: 3px;
+color: white;
+text-decoration: none;
+font-weight: bold;
+font-size: 16px;
+}
+
+div.menu a#aboutbt{
+word-spacing: 3px;
+color: white;
+text-decoration: none;
+font-weight: bold;
+font-size: 16px;
+}
+
+div.menu a#rooms{
+word-spacing: 3px;
+color: white;
+text-decoration: none;
+font-weight: bold;
+font-size: 16px;
+}
+
+div.menu a#testimonialsbt{
+word-spacing: 3px;
+color: white;
+text-decoration: none;
+font-weight: bold;
+font-size: 16px;
+}
+
+div.menu a#contactsbt{
+word-spacing: 3px;
+color: white;
+text-decoration: none;
+font-weight: bold;
+font-size: 16px;
+}
+
+div.menu a#booknow{
+word-spacing: 3px;
+display: block;
+width: 78px;
+height: 20px;
+display: flex;
+justify-content: center;
+text-decoration: none;
+padding: 23px 30px;
+padding-bottom: 15px;
+padding-top: 16px;
+position: absolute;
+left: 460px;
+top: -14px;
+color: white;
+background-color: #f8be52;
+font-family: 'Titan One', cursive;
+font-size: 13px;
+border-radius: 5px;
+box-shadow: 1px 1px black;
+}
+
+div.introduction{
+background: url(../img/bg-werehere.png) no-repeat;
+background-size: 100%;
+min-height: 620px;
+}
+
+img#iconfood{
+width: 40px;
+background-color: rgb(246, 164, 12);
+padding: 12px;
+border-radius: 50%;
+}
+
+img#iconwater{
+width: 40px;
+background-color: rgb(77, 162, 3);
+padding: 12px;
+border-radius: 50%;
+}
+img#iconcar{
+width: 40px;
+background-color: rgb(44, 177, 223);
+padding: 12px;
+border-radius: 50%;
+}
+
+img#iconball{
+width: 40px;
+background-color: rgb(231, 65, 0);
+padding: 12px;
+border-radius: 50%;
+}
+
+
+.introheading{
+font-size: 50px;
+font-family: 'Titan One';
+color: #39383b;
+display: flex;
+justify-content: center;
+}
+
+.introparag{
+font-size: 20px;
+text-align: center;
+}
+
+div.articles{
+display: flex;
+justify-content: space-between;
+margin-top: 40px;
+margin-left: 370px;
+margin-right: 370px;
+max-height: 350px;
+}
+
+.art1{
+max-width: 220px;
+background:#f8be52;
+border-radius: 7px;
+color: white;
+padding: 70px 21px;
+padding-top: 25px;
+}
+.art2{
+max-width: 220px;
+background:rgb(124, 188, 68);
+border-radius: 7px;
+color: white;
+padding: 70px 21px;
+padding-top: 25px;
+}
+.art3{
+max-width: 220px;
+background:#82c5dc;
+border-radius: 7px;
+color: white;
+padding: 70px 21px;
+padding-top: 25px;
+}
+.art4{
+max-width: 220px;
+background:rgb(243, 93, 34);
+border-radius: 7px;
+color: white;
+padding: 70px 21px;
+padding-top: 25px;
+}
+
+h3.artt1{
+font-family: 'Titan One', cursive;
+font-size: 22px;
+}
+h3.artt2{
+font-family: 'Titan One', cursive;
+font-size: 22px;
+}
+h3.artt3{
+font-family: 'Titan One', cursive;
+font-size: 22px;
+}
+h3.artt4{
+font-family: 'Titan One', cursive;
+font-size: 22px;
+}
+
+div.booking{
+margin: 0px -200px;
+display: flex;
+background: url(../img/bg-needaplace.png) no-repeat;
+background-size: 90%;
+padding-bottom: 35px;
+}
+div.booking-main{
+
+margin-right: 450px;
 }
