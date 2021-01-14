@@ -1,6 +1,15 @@
 :root{
 scroll-behavior: smooth;
 }
+
+.line::before {
+content: "";
+display: inline-block;
+width: 75px;
+height: 4px;
+background: linear-gradient(90deg,#82c5dc,#82c5dc 20%,#f8be52 0,#f8be52 40%,#f8be52 0,#f8be52 60%,#f35d22 0,#f35d22 80%,#39383b 0,#39383b);
+}
+
 body{
 margin: 0px; 
 font-family: 'Yantramanav';
@@ -231,7 +240,7 @@ box-shadow: 1px 1px black;
 
 div.introduction{
 background: url(../img/bg-werehere.png) no-repeat;
-background-size: 100%;
+background-size: cover;
 min-height: 620px;
 }
 
@@ -279,6 +288,7 @@ text-align: center;
 div.articles{
 display: flex;
 justify-content: space-between;
+flex-wrap: wrap;
 margin-top: 40px;
 margin-left: 370px;
 margin-right: 370px;
@@ -336,13 +346,126 @@ font-size: 22px;
 }
 
 div.booking{
-margin: 0px -200px;
 display: flex;
+flex-wrap: wrap;
 background: url(../img/bg-needaplace.png) no-repeat;
-background-size: 90%;
+background-size: cover;
 padding-bottom: 35px;
 }
-div.booking-main{
 
-margin-right: 450px;
+div#bookingimg{
+margin-right: 20px;
+max-width: 1200px;
+margin-left: -200px;
+}
+
+div.booking-main{
+max-width: 600px;
+text-align: center;
+margin-top: 100px;
+}
+
+
+div.booking-tagline p{
+font-size: 20px;
+font-weight: bold;
+}
+
+div.booking-form form{
+border: none;
+}
+
+#bookingbt{
+border: none;
+outline: none;
+background-color: #82c5dc;
+padding: 17px 200px;
+border-radius: 5px;
+color: white;
+font-family: 'Titan One', cursive;
+margin-top: 20px;
+}
+
+div.aboutus{
+display: flex;
+justify-content: center;
+margin-left: auto;
+flex-wrap: wrap;
+background: url(../img/bg-about.png)no-repeat;
+background-size: cover;
+}
+
+div.aboutimgs{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+margin-top: 60px;
+max-width: auto;
+max-height: auto;
+}
+div.aboutimgs img{
+
+max-width: 300px;
+max-height: 300px;
+flex-wrap: wrap;
+}
+
+div.aboutus article{
+
+align-items: center;
+text-align: left;
+max-width: 550px;
+margin-left: 30px;
+margin-top: 60px;
+}
+div.aboutus article p{
+font-weight: bold;
+}
+.aboutbg1{
+background: url(../img/bg-top.png)no-repeat;
+background-size: cover;
+padding-bottom: 100px;
+}
+.aboutbg2{
+background: url(../img/bg-bottom.png)no-repeat;
+background-size: cover;
+padding-top: 100px;
+}
+
+div.staff1{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+max-width: 2000px;
+background: url(../img/bg-staff.png) no-repeat;
+background-size: cover;
+}
+div.staff1 img{
+max-width: 440px;
+}
+div.staff h2, .line{
+text-align: center;
+}
+div.staff h3, p{
+text-align: center;
+}
+div.staff img{
+size: 100%;
+}
+.wall1{
+color: #f8be52;
+font-weight: bold;
+}
+.wall2{
+color: rgb(124,188,68);
+font-weight: bold;
+}
+.wall3{
+color:#82c5dc ;
+font-weight: bold;
+}
+.wall4{
+color: #f35d22;
+font-weight: bold;
 }
