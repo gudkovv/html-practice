@@ -1,100 +1,109 @@
-:root{
-scroll-behavior: smooth;
+:root {
+    scroll-behavior: smooth;
 }
 
 .line::before {
-content: "";
-display: inline-block;
-width: 75px;
-height: 4px;
-background: linear-gradient(90deg,#82c5dc,#82c5dc 20%,#f8be52 0,#f8be52 40%,#f8be52 0,#f8be52 60%,#f35d22 0,#f35d22 80%,#39383b 0,#39383b);
+    content: "";
+    display: inline-block;
+    width: 75px;
+    height: 4px;
+    background: linear-gradient(90deg,#82c5dc,#82c5dc 20%,#f8be52 0,#f8be52 40%,#f8be52 0,#f8be52 60%,#f35d22 0,#f35d22 80%,#39383b 0,#39383b);
 }
 
-body{
-margin: 0px; 
-font-family: 'Yantramanav';
+body {
+    margin: 0px;
+    font-family: 'Yantramanav';
 }
-header{
-background: url('../img/bg-header.png') no-repeat;
-background-size: 117% auto;
-height: 1000px;
-background-position-x: -170px;
+
+header {
+    background: url('../img/bg-header.png') no-repeat;
+    background-size: 117% auto;
+    height: 1000px;
+    background-position-x: -170px;
 }
-h2.tagline{
-position: absolute;
-left: 340px;
-text-align: center;
-color: white;
-font-size: 100px;
-font-family: 'Titan One', cursive;
+
+h2.tagline {
+    position: absolute;
+    left: 340px;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family: 'Titan One', cursive;
 }
+
 p.tagline {
-color:white;
-position: absolute;
-left: 370px;
-top: 540px;
-text-align: center;
-font-size: 19px;
-font-weight: bold;
-}
-.whitedog{
-width: 33%;
-}
-.whitecat{
-width: 33%;
-}
-.cutycat{
-width: 33%;
-}
-.gingercat{
-width: 33%;
-}
-.happypaws1{
-margin-left: 183px;
-margin-top: 35px;
-width: 15%;
-}
-.menu{
-position: absolute;
-left: 950px;
-top: 50px;
-word-spacing: 20px;
-color: white;
-
-}
-.tagline{
-padding-top: 70px;
-padding-bottom: 120px;
-}
-.logodog{
-position: absolute;
-left: 960px;
-top: 190px;
-width: 590px
-}
-.ourroomsbt{
-position: absolute;
-left: 565px;
-top: 720px;
-word-spacing: 3px;
-display: block;
-width: 85px;
-height: 20px;
-display: flex;
-justify-content: center;
-text-decoration: none;
-padding: 23px 30px;
-padding-bottom: 15px;
-padding-top: 16px;
-color: white;
-background-color: #f8be52;
-font-family: 'Titan One', cursive;
-font-size: 13px;
-border-radius: 5px;
-box-shadow: 1px 1px black;
+    color: white;
+    position: absolute;
+    left: 370px;
+    top: 540px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
 }
 
+.whitedog {
+    width: 33%;
+}
 
+.whitecat {
+    width: 33%;
+}
+
+.cutycat {
+    width: 33%;
+}
+
+.gingercat {
+    width: 33%;
+}
+
+.happypaws1 {
+    margin-left: 183px;
+    margin-top: 35px;
+    width: 15%;
+}
+
+.menu {
+    position: absolute;
+    left: 950px;
+    top: 50px;
+    word-spacing: 20px;
+    color: white;
+}
+
+.tagline {
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+
+.logodog {
+    position: absolute;
+    left: 960px;
+    top: 190px;
+    width: 590px
+}
+
+.ourroomsbt {
+    position: absolute;
+    left: 565px;
+    top: 720px;
+    word-spacing: 3px;
+    display: block;
+    width: 85px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 23px 30px;
+    padding-bottom: 15px;
+    padding-top: 16px;
+    color: white;
+    background-color: #f8be52;
+    font-family: 'Titan One', cursive;
+    font-size: 13px;
+    border-radius: 5px;
+    box-shadow: 1px 1px black;
+}
 
 /*
 .roomsgallery{
@@ -102,370 +111,402 @@ background: url(../img/bg1-rooms.png), url(../img/bg3-rooms.png), url(../img/bg2
 background-position: top, center, bottom;
 }
 */
-h2.roomsgallery{
-font-family: 'Titan One', cursive;
-font-size: 50px;
-color: #39383b
-}
-h2.booking{
-font-family: 'Titan One', cursive;
-font-size: 50px;
-color: #39383b
-}
-h2.about{
-font-family: 'Titan One', cursive;
-font-size: 50px;
-color: #39383b
-}
-h2.staff{
-font-family: 'Titan One', cursive;
-font-size: 50px;
-color: #39383b
-}
-h3#staff{
-font-family: 'Titan One', cursive;
-color: #39383b
-}
-span#staff{
-font-weight: 300
-}
-h2.partners{
-font-family: 'Titan One', cursive;
-font-size: 50px;
-color: #39383b
-}
-h2#testimonials{
-font-family: 'Titan One', cursive;
-font-size: 50px;
-color: #39383b 
-}
-h3#kelly{
-font-family: 'Titan One', cursive;
-font-size: 25px;
-color: #39383b  
-}
-h2#gallery{
-font-family: 'Titan One', cursive;
-font-size: 50px;
-color: #39383b
-}
-h3.gallery{
-font-family: 'Titan One', cursive;
-font-size: 25px;
-color: #39383b  
-}
-h2#contacts{
-font-family: 'Titan One', cursive;
-font-size: 50px;
-color: #39383b
-}
-h3.contacts{
-font-family: 'Titan One', cursive;
-font-size: 25px;
-color: #39383b 
-}
-div.foot{
-height: 150px;
-background-color: #39383b;
-}
-div.logo1{
-background: url(../img/bg-footer.png) no-repeat;
-padding: 100px;
-height: auto;}
-div.footbg{
-background-color: #39383b;
-padding: 70px;
-}
-div.menu a#addserv{
-word-spacing: 3px;
-color: white;
-text-decoration: none;
-font-weight: bold;
-font-size: 16px;
+h2.roomsgallery {
+    font-family: 'Titan One', cursive;
+    font-size: 50px;
+    color: #39383b
 }
 
-div.menu a#aboutbt{
-word-spacing: 3px;
-color: white;
-text-decoration: none;
-font-weight: bold;
-font-size: 16px;
+h2.booking {
+    font-family: 'Titan One', cursive;
+    font-size: 50px;
+    color: #39383b
 }
 
-div.menu a#rooms{
-word-spacing: 3px;
-color: white;
-text-decoration: none;
-font-weight: bold;
-font-size: 16px;
+h2.about {
+    font-family: 'Titan One', cursive;
+    font-size: 50px;
+    color: #39383b
 }
 
-div.menu a#testimonialsbt{
-word-spacing: 3px;
-color: white;
-text-decoration: none;
-font-weight: bold;
-font-size: 16px;
+h2.staff {
+    font-family: 'Titan One', cursive;
+    font-size: 50px;
+    color: #39383b
 }
 
-div.menu a#contactsbt{
-word-spacing: 3px;
-color: white;
-text-decoration: none;
-font-weight: bold;
-font-size: 16px;
+h3#staff {
+    font-family: 'Titan One', cursive;
+    color: #39383b
 }
 
-div.menu a#booknow{
-word-spacing: 3px;
-display: block;
-width: 78px;
-height: 20px;
-display: flex;
-justify-content: center;
-text-decoration: none;
-padding: 23px 30px;
-padding-bottom: 15px;
-padding-top: 16px;
-position: absolute;
-left: 460px;
-top: -14px;
-color: white;
-background-color: #f8be52;
-font-family: 'Titan One', cursive;
-font-size: 13px;
-border-radius: 5px;
-box-shadow: 1px 1px black;
+span#staff {
+    font-weight: 300
 }
 
-div.introduction{
-background: url(../img/bg-werehere.png) no-repeat;
-background-size: cover;
-min-height: 620px;
+h2.partners {
+    font-family: 'Titan One', cursive;
+    font-size: 50px;
+    color: #39383b
 }
 
-img#iconfood{
-width: 40px;
-background-color: rgb(246, 164, 12);
-padding: 12px;
-border-radius: 50%;
+h2#testimonials {
+    font-family: 'Titan One', cursive;
+    font-size: 50px;
+    color: #39383b
 }
 
-img#iconwater{
-width: 40px;
-background-color: rgb(77, 162, 3);
-padding: 12px;
-border-radius: 50%;
-}
-img#iconcar{
-width: 40px;
-background-color: rgb(44, 177, 223);
-padding: 12px;
-border-radius: 50%;
+h3#kelly {
+    font-family: 'Titan One', cursive;
+    font-size: 25px;
+    color: #39383b
 }
 
-img#iconball{
-width: 40px;
-background-color: rgb(231, 65, 0);
-padding: 12px;
-border-radius: 50%;
+h2#gallery {
+    font-family: 'Titan One', cursive;
+    font-size: 50px;
+    color: #39383b
 }
 
-
-.introheading{
-font-size: 50px;
-font-family: 'Titan One';
-color: #39383b;
-display: flex;
-justify-content: center;
+h3.gallery {
+    font-family: 'Titan One', cursive;
+    font-size: 25px;
+    color: #39383b
 }
 
-.introparag{
-font-size: 20px;
-text-align: center;
+h2#contacts {
+    font-family: 'Titan One', cursive;
+    font-size: 50px;
+    color: #39383b
 }
 
-div.articles{
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-margin-top: 40px;
-margin-left: 370px;
-margin-right: 370px;
-max-height: 350px;
+h3.contacts {
+    font-family: 'Titan One', cursive;
+    font-size: 25px;
+    color: #39383b
 }
 
-.art1{
-max-width: 220px;
-background:#f8be52;
-border-radius: 7px;
-color: white;
-padding: 70px 21px;
-padding-top: 25px;
-}
-.art2{
-max-width: 220px;
-background:rgb(124, 188, 68);
-border-radius: 7px;
-color: white;
-padding: 70px 21px;
-padding-top: 25px;
-}
-.art3{
-max-width: 220px;
-background:#82c5dc;
-border-radius: 7px;
-color: white;
-padding: 70px 21px;
-padding-top: 25px;
-}
-.art4{
-max-width: 220px;
-background:rgb(243, 93, 34);
-border-radius: 7px;
-color: white;
-padding: 70px 21px;
-padding-top: 25px;
+div.foot {
+    height: 150px;
+    background-color: #39383b;
 }
 
-h3.artt1{
-font-family: 'Titan One', cursive;
-font-size: 22px;
-}
-h3.artt2{
-font-family: 'Titan One', cursive;
-font-size: 22px;
-}
-h3.artt3{
-font-family: 'Titan One', cursive;
-font-size: 22px;
-}
-h3.artt4{
-font-family: 'Titan One', cursive;
-font-size: 22px;
+div.logo1 {
+    background: url(../img/bg-footer.png) no-repeat;
+    padding: 100px;
+    height: auto;
 }
 
-div.booking{
-display: flex;
-flex-wrap: wrap;
-background: url(../img/bg-needaplace.png) no-repeat;
-background-size: cover;
-padding-bottom: 35px;
+div.footbg {
+    background-color: #39383b;
+    padding: 70px;
 }
 
-div#bookingimg{
-margin-right: 20px;
-max-width: 1200px;
-margin-left: -200px;
+div.menu a#addserv {
+    word-spacing: 3px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
 }
 
-div.booking-main{
-max-width: 600px;
-text-align: center;
-margin-top: 100px;
+div.menu a#aboutbt {
+    word-spacing: 3px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
 }
 
-
-div.booking-tagline p{
-font-size: 20px;
-font-weight: bold;
+div.menu a#rooms {
+    word-spacing: 3px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
 }
 
-div.booking-form form{
-border: none;
+div.menu a#testimonialsbt {
+    word-spacing: 3px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
 }
 
-#bookingbt{
-border: none;
-outline: none;
-background-color: #82c5dc;
-padding: 17px 200px;
-border-radius: 5px;
-color: white;
-font-family: 'Titan One', cursive;
-margin-top: 20px;
+div.menu a#contactsbt {
+    word-spacing: 3px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
 }
 
-div.aboutus{
-display: flex;
-justify-content: center;
-margin-left: auto;
-flex-wrap: wrap;
-background: url(../img/bg-about.png)no-repeat;
-background-size: cover;
+div.menu a#booknow {
+    word-spacing: 3px;
+    display: block;
+    width: 78px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 23px 30px;
+    padding-bottom: 15px;
+    padding-top: 16px;
+    position: absolute;
+    left: 460px;
+    top: -14px;
+    color: white;
+    background-color: #f8be52;
+    font-family: 'Titan One', cursive;
+    font-size: 13px;
+    border-radius: 5px;
+    box-shadow: 1px 1px black;
 }
 
-div.aboutimgs{
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr 1fr;
-margin-top: 60px;
-max-width: auto;
-max-height: auto;
-}
-div.aboutimgs img{
-
-max-width: 300px;
-max-height: 300px;
-flex-wrap: wrap;
+div.introduction {
+    background: url(../img/bg-werehere.png) no-repeat;
+    background-size: cover;
+    min-height: 620px;
 }
 
-div.aboutus article{
-
-align-items: center;
-text-align: left;
-max-width: 550px;
-margin-left: 30px;
-margin-top: 60px;
-}
-div.aboutus article p{
-font-weight: bold;
-}
-.aboutbg1{
-background: url(../img/bg-top.png)no-repeat;
-background-size: cover;
-padding-bottom: 100px;
-}
-.aboutbg2{
-background: url(../img/bg-bottom.png)no-repeat;
-background-size: cover;
-padding-top: 100px;
+img#iconfood {
+    width: 40px;
+    background-color: rgb(246, 164, 12);
+    padding: 12px;
+    border-radius: 50%;
 }
 
-div.staff1{
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-align-items: center;
-max-width: 2000px;
-background: url(../img/bg-staff.png) no-repeat;
-background-size: cover;
+img#iconwater {
+    width: 40px;
+    background-color: rgb(77, 162, 3);
+    padding: 12px;
+    border-radius: 50%;
 }
-div.staff1 img{
-max-width: 440px;
+
+img#iconcar {
+    width: 40px;
+    background-color: rgb(44, 177, 223);
+    padding: 12px;
+    border-radius: 50%;
 }
-div.staff h2, .line{
-text-align: center;
+
+img#iconball {
+    width: 40px;
+    background-color: rgb(231, 65, 0);
+    padding: 12px;
+    border-radius: 50%;
 }
-div.staff h3, p{
-text-align: center;
+
+.introheading {
+    font-size: 50px;
+    font-family: 'Titan One';
+    color: #39383b;
+    display: flex;
+    justify-content: center;
 }
-div.staff img{
-size: 100%;
+
+.introparag {
+    font-size: 20px;
+    text-align: center;
 }
-.wall1{
-color: #f8be52;
-font-weight: bold;
+
+div.articles {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 370px;
+    margin-right: 370px;
+    max-height: 350px;
 }
-.wall2{
-color: rgb(124,188,68);
-font-weight: bold;
+
+.art1 {
+    max-width: 220px;
+    background: #f8be52;
+    border-radius: 7px;
+    color: white;
+    padding: 70px 21px;
+    padding-top: 25px;
 }
-.wall3{
-color:#82c5dc ;
-font-weight: bold;
+
+.art2 {
+    max-width: 220px;
+    background: rgb(124, 188, 68);
+    border-radius: 7px;
+    color: white;
+    padding: 70px 21px;
+    padding-top: 25px;
 }
-.wall4{
-color: #f35d22;
-font-weight: bold;
+
+.art3 {
+    max-width: 220px;
+    background: #82c5dc;
+    border-radius: 7px;
+    color: white;
+    padding: 70px 21px;
+    padding-top: 25px;
+}
+
+.art4 {
+    max-width: 220px;
+    background: rgb(243, 93, 34);
+    border-radius: 7px;
+    color: white;
+    padding: 70px 21px;
+    padding-top: 25px;
+}
+
+h3.artt1 {
+    font-family: 'Titan One', cursive;
+    font-size: 22px;
+}
+
+h3.artt2 {
+    font-family: 'Titan One', cursive;
+    font-size: 22px;
+}
+
+h3.artt3 {
+    font-family: 'Titan One', cursive;
+    font-size: 22px;
+}
+
+h3.artt4 {
+    font-family: 'Titan One', cursive;
+    font-size: 22px;
+}
+
+div.booking {
+    display: flex;
+    flex-wrap: wrap;
+    background: url(../img/bg-needaplace.png) no-repeat;
+    background-size: cover;
+    padding-bottom: 35px;
+}
+
+div#bookingimg {
+    margin-right: 20px;
+    max-width: 1200px;
+    margin-left: -200px;
+}
+
+div.booking-main {
+    max-width: 600px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+div.booking-tagline p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.booking-form form {
+    border: none;
+}
+
+#bookingbt {
+    border: none;
+    outline: none;
+    background-color: #82c5dc;
+    padding: 17px 200px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Titan One', cursive;
+    margin-top: 20px;
+}
+
+div.aboutus {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    flex-wrap: wrap;
+    background: url(../img/bg-about.png)no-repeat;
+    background-size: cover;
+}
+
+div.aboutimgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 60px;
+    max-width: auto;
+    max-height: auto;
+}
+
+div.aboutimgs img {
+    max-width: 300px;
+    max-height: 300px;
+    flex-wrap: wrap;
+}
+
+div.aboutus article {
+    align-items: center;
+    text-align: left;
+    max-width: 550px;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+div.aboutus article p {
+    font-weight: bold;
+}
+
+.aboutbg1 {
+    background: url(../img/bg-top.png)no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.aboutbg2 {
+    background: url(../img/bg-bottom.png)no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+div.staff1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 2000px;
+    background: url(../img/bg-staff.png) no-repeat;
+    background-size: cover;
+}
+
+div.staff1 img {
+    max-width: 440px;
+}
+
+div.staff h2, .line {
+    text-align: center;
+}
+
+div.staff h3, p {
+    text-align: center;
+}
+
+div.staff img {
+    size: 100%;
+}
+
+.wall1 {
+    color: #f8be52;
+    font-weight: bold;
+}
+
+.wall2 {
+    color: rgb(124,188,68);
+    font-weight: bold;
+}
+
+.wall3 {
+    color: #82c5dc ;
+    font-weight: bold;
+}
+
+.wall4 {
+    color: #f35d22;
+    font-weight: bold;
 }
