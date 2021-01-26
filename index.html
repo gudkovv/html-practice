@@ -14,11 +14,11 @@
 <body>
 
     <header id="home">
-        <nav>
+        <nav class="header">
             <div class="logo">
-                <a class="happypaws1" href="index.html"><img class="happypaws1" src="img/logo.png" alt="logo"></a>
+                <a class="top-logo" href="index.html"><img class="happypaws1" src="img/logo.png" alt="logo"></a>
             </div>
-            <div class="menu">
+            <div class="header-menu">
                 <a id="aboutbt" href="#about">About</a>
                 <a id="rooms" href="rooms.html">Rooms</a>
                 <a id="addserv" href="rooms.html#additional-services">Additional services</a>
@@ -27,20 +27,25 @@
                 <a id="booknow" href="#contacts">BOOK NOW</a>
             </div>
         </nav>
-        <div class="taglinelogo">
-            <h2 class="tagline">First Los <br> Angeles <br> Pets Hotel!</h2>
-            <p class="tagline">Safe and comfortable place for your dogs and cats, with 5-star service <br> and brand new
-                rooms.</p>
-            <a class="ourroomsbt" href="rooms.html">OUR ROOMS</a>
-        </div>
-        <div>
-            <img class="logodog" src="img/dog.png" alt="Dog">
+        <div class="header-mine">
+            <div class="taglinelogo">
+                <h2>First Los <br> Angeles <br> Pets Hotel!</h2>
+                <div class="whiteline"></div>
+                <p class="tagline">Safe and comfortable place for your dogs and cats, with 5-star service <br> and brand
+                    new
+                    rooms.</p>
+                <a class="ourroomsbtn" href="rooms.html">OUR ROOMS</a>
+            </div>
+            <div class="header-dog">
+                <img class="logodog" src="img/dog.png" alt="Dog">
+            </div>
         </div>
     </header>
 
     <main>
         <div class="introduction">
             <div>
+                <div class="line"></div>
                 <h2 class="introheading">We're Here to Look After Your Pet</h2>
             </div>
             <div>
@@ -48,14 +53,14 @@
                     Check the reasons why you should choose us among other companies!</p>
             </div>
             <div class="articles">
-                <article class="art1">
+                <article class="article" id="art1">
                     <div class="iconbg1"><img id="iconfood" src="src/royalcanin.svg" alt="icon"></div>
                     <h3 class="artt1">Royal Canin</h3>
                     <p>We give your pets only the best food, in accordance with your recommendations and diet
                         restrictions,
                         individual intolerance, allergic reactions, etc.</p>
                 </article>
-                <article class="art2">
+                <article class="article" id="art2">
                     <div class="iconbg2"><img id="iconwater" src="src/water.svg" alt="icon">
                         <div>
                             <h3 class="artt2">Purified Water</h3>
@@ -63,7 +68,7 @@
                                 stages
                                 ensuring no contamination and odor.</p>
                 </article>
-                <article class="art3">
+                <article class="article" id="art3">
                     <div class="iconbg3"><img id="iconcar" src="src/car.svg" alt="icon">
                         <div>
                             <h3 class="artt3">Drop Off & Pick Up</h3>
@@ -71,7 +76,7 @@
                                 transport
                                 dogs and cats in comfortable mini-vans.</p>
                 </article>
-                <article class="art4">
+                <article class="article" id="art4">
                     <div class="iconbg4"><img id="iconball" src="src/ball.svg" alt="icon">
                         <div>
                             <h3 class="artt4">Lots of Activities</h3>
@@ -81,19 +86,18 @@
                                 to boring days in cramped cages!</p>
                 </article>
             </div>
-
         </div>
-
-        <div>
-            <div class="roomsgallery">
+    
+        <div class="rooms-top-bg"></div>
+        <div class="roomsgallery">
+            <div class="roomsmain">
+                <div class="line"></div>
                 <h2 class="roomsgallery">Rooms & Suites</h2>
-            </div>
-            <div>
                 <p>Your dogs and cats live in personal rooms equipped with everything they may need. Air-conditioned
                     rooms
                     have soft couches and cat scratching posts. Round-the-clock video surveillance included.</p>
             </div>
-            <div>
+            <div class="gallery-scroll">
                 <article>
                     <img class="whitedog" src="img/sroom1dog.jpg" alt="standard room for 1 dog">
                     <h3>Standard Room for 1 Dog</h3>
@@ -115,8 +119,9 @@
                 </article>
             </div>
 
-            <a href="rooms.html">SEE MORE</a>
+            <div class="rooms-button"><a id="roomsbtn" href="rooms.html">SEE MORE</a></div>
         </div>
+        <div class="rooms-bottom-bg"></div>
 
         <div class="booking">
             <div id="bookingimg"><img src="img/hotel.png" alt="Need a place?"></div>
@@ -166,7 +171,7 @@
             </article>
         </div>
         <div class="aboutbg2"></div>
-        -->
+        
         <div class="staff">
             <div class="line"></div>
             <h2 class="staff">Meet our staff</h2>
@@ -196,7 +201,7 @@
                 </article>
             </div>
         </div>
-    
+   
         <div class="partners">
             <h2 class="partners">Our Partners</h2>
             <p>With great love for animals, we opened our hotel for pets 3 years ago. We are located on the outskirts of
@@ -303,7 +308,7 @@
         </div>
         <div class="footbg">
             <nav>
-                <div class="menu2">
+                <div class="footer-menu">
                     <a href="#about">About</a>
                     <a href="rooms.html">Rooms</a>
                     <a id="addserv" href="rooms.html#additional-services">Additional services</a>
