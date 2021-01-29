@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Titan+One&family=Yantramanav:wght@300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="slider/style.css">
 </head>
 
 <body>
@@ -98,26 +99,30 @@
                     have soft couches and cat scratching posts. Round-the-clock video surveillance included.</p>
             </div>
             <div class="gallery-scroll">
-                <article>
-                    <img class="whitedog" src="img/sroom1dog.jpg" alt="standard room for 1 dog">
+                <div class="slider__item">
+                    <img src="img/slider-room1.jpg" alt="standard room for 1 dog">
                     <h3>Standard Room for 1 Dog</h3>
-                </article>
+                </div>
 
-                <article>
-                    <img class="whitecat" src="img/s2-4cats.png" alt="executive suite for 2-4 cats">
+                <div class="slider__item">
+                    <img src="img/slider-room2.png" alt="executive suite for 2-4 cats">
                     <h3>Executive Suite for 2-4 Cats</h3>
-                </article>
+                </div>
 
-                <article>
-                    <img class="cutycat" src="img/scatroom.png" alt="standard cat room">
+                <div class="slider__item">
+                    <img src="img/slider-room3.png" alt="standard cat room">
                     <h3>Standard Cat Room</h3>
-                </article>
+                </div>
 
-                <article>
-                    <img class="gingercat" src="img/pres-room.jpg" alt="residential room">
+                <div class="slider__item">
+                    <img src="img/slider-room4.jpg" alt="presidential room">
                     <h3>Presidential Room (for 4 Pets)</h3>
-                </article>
+                </div>
             </div>
+
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+			<script src="slider/slick.min.js"></script>
+			<script src="slider/script.js"></script>
 
             <div class="rooms-button"><a id="roomsbtn" href="rooms.html">SEE MORE</a></div>
         </div>

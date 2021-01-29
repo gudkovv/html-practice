@@ -12,7 +12,9 @@
     background: linear-gradient(90deg,#82c5dc,#82c5dc 20%,#f8be52 0,#f8be52 40%,#f8be52 0,#f8be52 60%,#f35d22 0,#f35d22 80%,#39383b 0,#39383b);
 }
 
-
+div.slider__item img{
+    max-height: 1000px;
+}
 
 .whiteline::before {
     content: "";
