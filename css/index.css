@@ -98,6 +98,8 @@ div.taglinelogo p{
     width: 600px
 }
 
+
+
 nav.header{
     display: flex;
     justify-content: space-between;
@@ -173,15 +175,48 @@ div.header-menu a#booknow:hover{
 }
 
 .logodog {
-    padding-top: 100px;
+    padding-top: 50px;
     width: 590px
 }
+
+@media (max-width:490px){
+    header#home div.header-mine div.taglinelogo h2{
+        margin-top: -60px;
+        font-size: 65px;
+    }
+    header#home div.header-mine div.taglinelogo .whiteline{
+        margin-top: 15px;
+    }
+    header#home div.header-mine div{
+        margin-top: -30px;
+    }
+    .logodog {
+    padding-top: 0px;
+    width: 590px}
+    header#home nav.header div.logo{
+        margin: 0 auto;
+    }
+}
+@media (max-width:1200px){
+    header#home nav.header div.logo{
+        margin: 0 auto;
+    }
+    header#home nav.header div.header-menu{
+         margin: 0 auto;
+    }
+}
+
+
 
 .intro-main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.intro-main div .line{
+    text-align: center;
 }
 
 
@@ -255,8 +290,6 @@ div.roomsmain{
     font-weight: bolder;
 }
 
-
-
 a#roomsbtn{
     word-spacing: 3px;
     display: block;
@@ -300,11 +333,6 @@ h2.partners {
     color: #39383b
 }
 
-h2#testimonials {
-    font-family: 'Titan One', cursive;
-    font-size: 50px;
-    color: #39383b
-}
 
 h3#kelly {
     font-family: 'Titan One', cursive;
@@ -329,11 +357,29 @@ h3.gallery {
 
 
 
+
+
+
+
+
 div.introduction {
     background: url(../img/bg-werehere.png) no-repeat;
     background-size: cover;
     max-height: auto;
 }
+
+@media(max-width:1141){
+    div.articles{
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:635){
+    div.introduction div.articles{
+        margin: 10px 20px;
+    }
+}
+
 
 img#iconfood {
     width: 60px;
@@ -385,34 +431,65 @@ img#iconball {
 
 div.articles {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 auto;
     max-width: 1200px;
 
 }
 
-@media (max-width: 1140px){
-    div.articles{
-        max-width: 800px;
-        margin: 0 auto;
+@media (max-width: 1150px){
+    div.introduction div.articles{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        max-width: 700px;
+        padding-left: 50px ;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+
     }
 }
 
-@media (max-width: 600px){
-    div.articles div{
-        border-radius: 10px;
-        max-width: auto;
-        max-height: 400px;
-    }
-    div.articles{
-        display: flex;
-        flex-direction: column;
-    }
-
+@media (max-width: 715px){
+     div.introduction div.articles{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         margin: 0 auto;
+         max-width: 600px;
+         padding-left: 0px;
+     }
+     div.introduction div.articles div.article{
+         max-width: 600px;
+         max-height: 350px;         
+     }
+     div.introduction div.articles div p{
+         font-size: 25px;
+         width: 400px;
+         height: 180px;
+         word-break: break-all;
+         margin-left: -10px;
 }
+}
+
+@media (max-width: 463px){
+    div.introduction div.articles div p{
+         font-size: 23px;
+         width: 300px;
+         height: 180px;
+    }
+}
+
+@media (max-width: 350px){
+    div.introduction div.articles div p{
+         font-size: 20px;
+         width: 280px;
+         height: 180px;
+         margin-left: -20px;
+    }
+}
+
+
 div.articles div{
     display: flex;
     flex-direction: column;
@@ -458,6 +535,8 @@ div.articles div p{
 
 
 
+
+/*
 div.booking {
     display: flex;
     flex-wrap: wrap;
@@ -470,36 +549,49 @@ div.booking {
 div.booking-tagline h2, p{
     text-align: center;
     max-width: 600px;
-}
-
-div#bookingimg {
-    margin-right: 20px;
-    max-width: 1200px;
-    margin-left: -200px;
-}
-
-div#bookingimg img{
-    width: 100%;
+    flex-wrap: wrap;
 }
 
 div.booking-main {
     max-width: 600px;
     text-align: center;
     margin-top: 100px;
+    flex-wrap: wrap;
 }
 
 div.booking-tagline p {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    flex-wrap: wrap;
+} */
+.booking-content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+div.booking-tagline .line{
+    text-align: center;
+}
+
+.booking-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 form.booking-form{
     display: flex;
     flex-direction: column;
-    align-items: stretch;
     justify-content: space-between;
-    max-height: 1000px;
+    max-width: 1000px;
+    flex-wrap: wrap;
 }
 
 
@@ -535,6 +627,111 @@ form.booking-form{
     background-color: #f35d22;
 }
 
+@media(max-width: 619px){
+    .book-tel{
+        width: 500px;
+    }
+    .book-name{
+        width: 500px;
+    }
+    #bookingbt{
+        width: 500px;
+    }
+}
+
+@media(max-width: 525px){
+    .book-tel{
+        width: 400px;
+    }
+    .book-name{
+        width: 400px;
+    }
+    #bookingbt{
+        width: 400px;
+    }
+}
+
+@media(max-width: 619px){
+    .book-tel{
+        width: 500px;
+    }
+    .book-name{
+        width: 500px;
+    }
+    #bookingbt{
+        width: 500px;
+    }
+}
+
+@media(max-width: 532px){
+    .book-tel{
+        width: 350px;
+    }
+    .book-name{
+        width: 350px;
+    }
+    #bookingbt{
+        width: 350px;
+        padding: 20px 60px;
+    }
+}
+
+@media(max-width: 425px){
+    .book-tel{
+        width: 300px;
+    }
+    .book-name{
+        width: 300px;
+    }
+    #bookingbt{
+        width: 300px;
+        padding: 20px 50px;
+    }
+}
+
+
+
+div#bookingimg {
+    max-width: 1100px;
+    margin-left: -500px ;
+}
+
+@media (max-width:1219px){
+    .booking-content{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    div#bookingimg {
+    max-width: 100%;
+    margin-left: 0px;
+}
+}
+
+h2.booking {
+    font-family: 'Titan One', cursive;
+    font-size: 50px;
+    color: #39383b;
+    text-align: center;
+}
+
+div.booking-tagline p{
+    text-align: center;
+}
+
+div#bookingimg img{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+div.booking-form{
+    max-width: 600px;
+}
+
+
+
+
+
 div.aboutus {
     flex-wrap: wrap;
     background: url(../img/bg-about.png)no-repeat;
@@ -547,8 +744,22 @@ div.aboutus {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1300px;
     padding-top: 30px;  
+    flex-wrap: wrap;
+}
+
+div.aboutus div.about-content div.slider{
+    display: none;
+}
+
+@media(max-width:660px){
+    div.aboutus div.about-content div.aboutimgs{
+        display: none;
+    }
+    div.aboutus div.about-content div.slider{
+    display: block;
+}
 }
 
 .about-slider{
@@ -603,10 +814,10 @@ div.aboutus article p {
     font-weight: bold;
 }
 
-#aboutbg1 {
+#about{
     background: url(../img/bg-top.png)no-repeat;
     background-size: cover;
-    padding-bottom: 100px;
+    height: 100px;
 }
 
 .aboutbg2 {
@@ -624,6 +835,16 @@ div.aboutus article p {
 
 .meetstaff .line{
     padding-top: 50px;
+}
+
+div.meetstaff div.staff div img {
+    max-width: 440px;
+}
+
+@media(max-width:900px){
+    div.meetstaff div.staff div img {
+    max-width: 100%;
+}
 }
 
 .staff-heading{
@@ -646,32 +867,38 @@ div.staff {
     font-size: 17px;
 }
 
-div.staff img {
-    max-width: 440px;
-}
 
-div.meetstaff h2, .line {
+
+div.meetstaff h2 {
     text-align: center;
     font-family: 'Titan One', cursive;
     font-size: 45px;
 }
 
-div.staff article h3{
-    font-size: 30px;
-}
-
-div.staff div h3, p, span.proff{
-    font-size: 20px;
+div.meetstaff div.staff-heading .line{
     text-align: center;
 }
+
+div.meetstaff div.staff div h3{
+    text-align: center;
+}
+
+.staff div h3{
+    font-size: 60px;
+}
+
+.meetstaff .staff h3{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+
 
 div.staff div p{
     text-align: center;
 }
 
-div.staff img {
-    size: 100%;
-}
 
 .meetstaff h2 {
     font-family: 'Titan One', cursive;
@@ -686,10 +913,30 @@ div.staff img {
     color: #39383b;
 }
 
+
+
+
+
 .partners{
     background: url(../img/bg-partners.png) no-repeat;
     background-size: cover;
     padding-bottom: 20px;
+}
+
+
+.partners-text{
+    max-width: 550px;
+}
+
+@media(max-width:1205px){
+    .partners .partners-content{
+        margin: 0 auto;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .partners-content{
@@ -697,9 +944,27 @@ div.staff img {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    flex-wrap: wrap;
     max-width: 1200px;
     padding-top: 70px;
     padding-bottom: 40px;
+}
+
+.partners-content .slider{
+    display: none;
+}
+
+@media(max-width:660px){
+    .partners .partners-content{
+        display: block;
+        margin: 0 auto;
+    }
+    .partners-content .slider{
+        display: block;
+    }
+    .partners-content .partners-imgs{
+        display: none;
+    }
 }
 
 .partners-imgs img{
@@ -716,11 +981,6 @@ div.staff img {
 }
 
 
-
-.partners-text .line, p, h2{
-    text-align: left;
-}
-
 div.partners-bgtop{
     background: url(../img/bg-top.png) no-repeat ;
     background-size: cover;
@@ -732,6 +992,11 @@ div.partners-bgbottom{
     background-size: cover;
     height: 100px;
 }
+
+
+
+
+
 .testimonials{
     overflow: hidden;
     flex-wrap: wrap;
@@ -743,6 +1008,7 @@ div.partners-bgbottom{
     align-items: center;
     max-width: 1300px;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .testimonials-text{
@@ -756,22 +1022,46 @@ div.partners-bgbottom{
 .testimonials-text .quote{
     font-style: italic;
 }
-.testimonials-text line{
+.testimonials-text .line{
     text-align: left;
 }
 
 .testimonials-img{
     margin-right: -600px;
 }
-.testimonials-img img{
-    max-width: 1300px;
+
+@media(max-width:500px){
+    .testimonials .testimonials-content .testimonials-img img{
+        max-width: 100%;
+    }
+    .testimonials .testimonials-content .testimonials-img{
+    max-width: 500px;
+    margin: 0 auto;
+}
 }
 
-h2.booking {
+.testimonials .testimonials-content .testimonials-text h2 {
     font-family: 'Titan One', cursive;
     font-size: 50px;
     color: #39383b
 }
+
+@media(max-width:380px){
+    .testimonials .testimonials-content .testimonials-text h2{
+        font-size: 40px;
+    }
+}
+
+.testimonials-img img{
+    max-width: 1300px;
+}
+
+
+
+
+
+
+
 
 .gallery-topbg{
     background: url(../img/bg-top.png) no-repeat;
@@ -798,12 +1088,22 @@ h2.booking {
     justify-content: center;
 }
 
+.gallery-tagline .line{
+    text-align: center;
+}
+
 .gallery-tagline h2{
     font-family: 'Titan One', cursive;
     color: var(--main-color);
     text-align: center;
     font-size: 50px;
 }
+
+
+
+
+
+
 
 .contacts{
     padding-top: 100px;
@@ -813,10 +1113,11 @@ h2.booking {
 
 .contacts-content{
     display: flex;
-    justify-content: space-between;
-    max-width: 1050px;
+    justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 .contacts-left-part{
@@ -828,6 +1129,11 @@ h2.booking {
     color: var(--main-color);
     font-size: 45px;
     text-align: left;
+}
+
+.contacts-main p{
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .contacts-main .line{
@@ -911,10 +1217,72 @@ form.contacts{
    color: white;
 }
 
+@media(max-width:575px){
+    .cont-name{
+        max-width: 450px;
+    }
+
+    .cont-tel{
+        max-width: 450px;
+    }
+
+    .cont-mess{
+        max-width: 450px;
+    }
+
+    .cont-btn{
+        max-width: 450px;
+    }
+}
+
+@media(max-width:475px){
+    .cont-name{
+        max-width: 300px;
+    }
+
+    .cont-tel{
+        max-width: 300px;
+    }
+
+    .cont-mess{
+        max-width: 300px;
+    }
+
+    .cont-btn{
+        max-width: 300px;
+    }
+
+}
+
+@media (max-width:560px){
+    footer .footer-main{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: -60px;
+    }
+    div.footbg nav div.footer-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        margin: 0 auto;
+        max-height: 250px;
+        margin-left: -50px;
+    }
+}
+
 .cont-btn:hover{
     transition: all 0.5s;
     background-color: #82c5dc;
 }
+
+
+
+
+
+
+
 
 
 footer {
@@ -941,8 +1309,6 @@ img.footer-logo{
     max-width: 1200px;
     align-items: center;
     margin: 0 auto;
-    max-height: 80px;
-    cursor: default;
 }
 
 .footer-menu a{
