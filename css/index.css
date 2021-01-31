@@ -98,19 +98,24 @@ div.taglinelogo p{
     width: 600px
 }
 
-
+div.b23-bg{
+    background-color: #39383b;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
 
 nav.header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 40px;
+    padding-top: 15px;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: #39383b;
 }
 
 div.header-menu a#addserv {
-    word-spacing: 3px;
+    word-spacing: 0px;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -376,7 +381,14 @@ div.introduction {
 
 @media(max-width:635){
     div.introduction div.articles{
-        margin: 10px 20px;
+        margin: 20px 20px;
+    }
+}
+
+@media(max-width:635){
+    div.introduction div.articles article{
+        max-width: 200px;
+        margin: 20px 20px;
     }
 }
 
@@ -461,10 +473,12 @@ div.articles {
      }
      div.introduction div.articles div.article{
          max-width: 600px;
-         max-height: 350px;         
+         max-height: 350px;   
+         margin: 8px 5px;
+              
      }
      div.introduction div.articles div p{
-         font-size: 25px;
+         font-size: 25px; 
          width: 400px;
          height: 180px;
          word-break: break-all;
@@ -1109,6 +1123,7 @@ div.partners-bgbottom{
     padding-top: 100px;
     background: url(../img/bg-contacts.png) no-repeat;
     background-size: cover;
+    padding-bottom: 100px;
 }
 
 .contacts-content{
@@ -1268,7 +1283,11 @@ form.contacts{
         align-items: stretch;
         margin: 0 auto;
         max-height: 250px;
-        margin-left: -50px;
+        margin-left: -55px;
+        margin-top: -50px;
+    }
+    div.footer-topbg{
+        margin-top: -350px;
     }
 }
 
@@ -1348,6 +1367,10 @@ img.footer-logo{
 .footer-line{
     display: flex;
     justify-content: center;
+    max-width: 1200px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
 
 }
 
